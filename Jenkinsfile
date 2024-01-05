@@ -1,4 +1,7 @@
 pipeline {
+    environment {
+        prod_ip: '54.147.225.69'
+    }
     agent any
     stages {
         stage('Build') {
